@@ -50,6 +50,7 @@
 
 .preload-text{
     position: absolute;
+    font-style: italic;
     top: 75%;
     transform: translateY(-75%);
     color: #fff;
@@ -83,8 +84,16 @@
     font-size: 2rem;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url('./img/main-bg.jpg');
     background-size: cover;
+}
+
+.main h2{
+    margin-top: 3rem;
+    font-style: italic;
+    color: #fff;
+    font-size: 2rem;
 }
